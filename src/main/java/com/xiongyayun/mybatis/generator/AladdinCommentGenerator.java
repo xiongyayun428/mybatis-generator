@@ -161,9 +161,9 @@ public class AladdinCommentGenerator implements CommentGenerator {
 
     @Override
     public void addGeneralMethodComment(Method method, IntrospectedTable introspectedTable) {
-        method.addJavaDocLine("/**");
-        addJavadocTag(method, false);
-        method.addJavaDocLine(" */");
+//        method.addJavaDocLine("/**");
+//        addJavadocTag(method, false);
+//        method.addJavaDocLine(" */");
     }
 
     @Override
